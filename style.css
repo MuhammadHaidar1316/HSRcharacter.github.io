@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 10px;
+    font-style: sans-serif;
+}
+h2{
+    text-align: left;
+    padding-inline: 20px;
+    padding-top: 28px;
+}
+hr{
+    padding: 1px;
+    
+}
+img {
+    border-radius: 30%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3px;
+    margin-top: 16px;
+    padding-left: 4px;
+    margin-right: 32px; 
+    margin-left: 20px;
+    background-color: #a1a8af;
+
+}
+body {
+    background:linear-gradient(rgb(77, 114, 149), rgb(71, 95, 167), rgb(90, 113, 182));
+    
+}
+@media screen and (max-width:1200px) {
+	img{
+        width: 34vw;
+        height: 34vw;
+        border-radius: 20%;
+        margin-top: 20px;
+        margin: 10vw;
+        margin-left: 8vw;
+        margin-right: 2vw;
+    }
+}
